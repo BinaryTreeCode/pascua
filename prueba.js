@@ -42,7 +42,7 @@ var N = select.value;
         app.innerHTML = `a ${Jeronimo.nombre} le toca la silla ${Jeronimo.silla}, junto ${Jeronimo.junto}
         <br> a ${Jeronimo.nombre} le tocaria hacer ${Jeronimo.aciones[0]} y ${Jeronimo.aciones[1]}`;
         break;
-        case "1":
+        case "10":
         app.innerHTML = `a ${Juan_Pablo.nombre} le toca la silla ${Juan_Pablo.silla}, junto ${Juan_Pablo.junto}
         <br> a ${Juan_Pablo.nombre} le tocaria hacer ${Juan_Pablo.aciones[0]} y ${Juan_Pablo.aciones[1]}`;
         break;
@@ -92,14 +92,14 @@ const Federico = {
     nombre: "Federico",
     silla: "6",
     aciones: ["lavado", "patena"],
-    junto: "a Juan Digo y Juan"
+    junto: "a Juan Digo y Juan Martin"
 };
 
 const Juan_Diego = {
     nombre: "Juan Diego",
     silla: "7",
     aciones: ["lavado", "patena o asitente de patena do Juan pablo (si asiste)"], 
-    junto: "a Federico y Juan"
+    junto: "a Federico y Juan Martin"
 };
 
 const Juan = { 
